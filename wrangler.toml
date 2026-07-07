@@ -7,7 +7,7 @@ compatibility_date = "2026-07-07"
 # Then replace the placeholder id below with the created namespace ID.
 [[kv_namespaces]]
 binding = "HOME_IP_KV"
-id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+id = "611d4c8ec4c1222c37a3a309c52a28ba75c3c9e37428fe15dc12eacebb504218"
 
 [vars]
 # Use a long random path for updates. Generate your own value before deploy, for example:
