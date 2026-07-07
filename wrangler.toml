@@ -12,6 +12,7 @@ id = "f1fdcfc58f894284a4bbecbc652b4a60"
 [vars]
 # Use a long random path for updates. Generate your own value before deploy, for example:
 #   openssl rand -hex 32
-UPDATE_PATH = "/u/replace-with-a-long-random-string"
+# As below, to be replaced by CloudFlare secret, do not define UPDATE_PATH.
+# UPDATE_PATH = "/u/replace-with-a-long-random-string"
 CHECK_PATH = "/current"
 KV_KEY = "home:current-ip"
