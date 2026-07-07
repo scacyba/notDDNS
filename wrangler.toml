@@ -1,0 +1,17 @@
+name = "notddns"
+main = "src/index.js"
+compatibility_date = "2026-07-07"
+
+# Create this namespace with:
+#   npx wrangler kv namespace create HOME_IP_KV
+# Then replace the placeholder id below with the created namespace ID.
+[[kv_namespaces]]
+binding = "HOME_IP_KV"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+
+[vars]
+# Use a long random path for updates. Generate your own value before deploy, for example:
+#   openssl rand -hex 32
+UPDATE_PATH = "/u/replace-with-a-long-random-string"
+CHECK_PATH = "/current"
+KV_KEY = "home:current-ip"
